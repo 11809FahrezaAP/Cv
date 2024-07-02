@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="www.linkedin.com/in/fahreza-anandhita-p">Fahreza Anandhita P</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2>About Me</h2>
+            <p class="lead">I am a graduate in Computer Engineering with a primary interest in front-end programming. I have experience in web development using HTML, CSS, and JavaScript, and I am familiar with frameworks like laravel, codeignitor and React..</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Front-end Skills</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>PHP</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <!-- Add more skills as needed -->
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>Other Skills</h3>
+                    <ul>
+                        <li>Responsive Design</li>
+                        <li>Git</li>
+                        <li>Laravel</li>
+                        <li>Codeignitor</li>
+                        <li>Problem Solving</li>
+                        <li>SDLC</li>
+                        <li>Web Application Development</li>
+                        <li>MySQL</li>
+                        <li>Bootstrap</li>
+                        <!-- Add more skills as needed -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="/img/Porto1.png" class="card-img-top" alt="Portfolio Item 1">
+                        <div class="card-body">
+                            <p class="card-text">Travel berbasis web dengan menggunakan ReactJS</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more portfolio items within col-lg-4 col-md-6 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2>Contact Information</h2>
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <ul class="list-unstyled">
+                    <li>
+                        <h3>Email</h3>
+                        <p>fhrzanandhitap@gmail.com</p>
+                    </li>
+                    <li>
+                        <h3>Phone</h3>
+                        <p>+62 85-333-078-419</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script>
+        // Add hover effect to portfolio items
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mouseover', () => {
+                card.style.transform = 'scale(1.05)';
+                card.style.transition = 'transform 0.2s ease';
+            });
+            card.addEventListener('mouseout', () => {
+                card.style.transform = 'scale(1)';
+            });
+        });
+    </script>
+</body>
+</html>
